@@ -1,0 +1,194 @@
+
+	 body {
+            min-height: 100%;
+            flex-direction: column;
+        }
+
+        h1.welcome {
+            font-family: Verdana, sans-serif;
+            color: #8e41c3;
+            text-align: center;
+            text-shadow: 2px 2px lightgrey;
+        }
+
+        h2.description {
+            font-family: Verdana, sans-serif;
+            color: #8e41c3;
+            font-size: 15px;
+            text-align: center;
+            text-shadow: 1px 1px darkgrey;
+        }
+
+
+        /* navigation buttons css */
+        .nav {
+            text-decoration: none;
+            display: inline-block;
+        }
+
+
+            .nav button {
+                background-color: #c64fdd;
+                opacity: 0.8;
+                text-align: center;
+                padding: 12px 25px;
+                font-size: 20px;
+                display: inline-block;
+                border: 0;
+            }
+
+            
+            .nav button:hover {
+                background-color: #c64fdd;
+                color: #741717;
+                text-decoration: none;
+                box-shadow: none !important;
+                outline: 0 !important;
+            }
+
+            .nav button:active {
+                background-color: #883fae !important;
+                box-shadow: none !important;
+                outline: none !important;
+                border: 0 !important;
+            }
+
+            .nav button:focus {
+                background: #883fae;
+                outline: none;
+                box-shadow: none;
+            }
+  	 /* navigation buttons css end */            
+
+
+	
+        /* home prodcut description box */
+        .product {
+            width: 100%;
+            height: 100%;
+            border: 15px solid #D65DB1;
+            padding: 50px;
+            margin: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* home why section */
+        .why {
+            text-align: right;
+        }
+
+        /* carousel slide settings */
+        .slide {
+            width: 650px;
+            height: 100%;
+            margin: 25px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+	/* carousel indicators css*/
+        .carousel-indicators li {
+            border-radius: 50%;
+            width: 12px;
+            height: 12px;
+        }
+
+        /* align all content under jumbotron at the middle of the screen */
+        .stage {
+            left: 50%;
+        }
+  
+
+
+        /* bootstrap cards css*/
+
+	.card-body a:link, a:visited {
+            color: royalblue;
+        }
+
+        .card-link {
+            color: black !important;
+        }
+
+
+        .card-body {
+            background-color:  #f38fd4;
+        }
+
+        .card-header {
+            background-color: #D65DB1;
+        }
+
+        .card a {
+            color: black;
+            font-size: 15px;
+        }
+  	/* bootstrap cards css end*/
+
+
+
+	/* Form css*/
+
+        .form-box {
+            width: 500px;
+            height: 260px;
+            border: 5px solid #D65DB1;
+            padding: 15px;
+            margin: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .submit {
+            background-color: #883fae;
+            text-align: center;
+            padding: 8px 20px;
+            font-size: 20px;
+            display: inline-block;
+            border: 0;
+            color:ghostwhite;
+        }
+
+        .form-box button:hover {
+            background-color: #c64fdd;
+            color: #741717;
+            text-decoration: none;
+            box-shadow: none !important;
+            outline: 0 !important;
+            color: ghostwhite;
+        }
+
+        .form-box button:active {
+            background-color: #883fae !important;
+            box-shadow: none !important;
+            outline: none !important;
+            border: 0 !important;
+            color: ghostwhite;
+        }
+	/* Form css end*/
+
+
+
+	/* footer css*/
+
+        .footer {
+            text-align: center;
+            background-color: #b871e9;
+            width: 100%;
+            height: 90px;
+        }
+
+	 ul {
+            list-style-type:disc;
+        }
+
+	/* wrapper css for footer at the bottom of the page*/
+
+        .wrapper {
+            min-height: calc(100vh - 90px);
+            background-color: #eec8f2;
+        }
+
+	
